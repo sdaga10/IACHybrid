@@ -6,16 +6,16 @@ https://github.com/sdaga10/IACHybrid
 
 2. Change into the repository directory:
 
-# cd Hybrid-**
+   cd Hybrid-**
 
 3. Initialize Terraform:
 
-# terraform init
+   terraform init
 
 4. Change the required variables in `terraform.tfvars`
 
 5. Plan and apply the Terraform configuration:
 
-# terraform plan
+   terraform plan
 
-# terraform apply
+   terraform apply
