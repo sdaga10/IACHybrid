@@ -2,7 +2,8 @@
 Terraform modules to provision resources on Azure and AWS cloud
 
 1. Clone the repository:
-https://github.com/sdaga10/IACHybrid
+
+   https://github.com/sdaga10/IACHybrid.git
 
 2. Change into the repository directory:
 
