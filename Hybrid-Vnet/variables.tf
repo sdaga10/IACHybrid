@@ -61,3 +61,13 @@ variable "resource_group_name" {
   description = "The resource group name for the resources"
   default = "sddemo"
 }
+
+variable "provision_aws_resource" {
+  type = bool
+  default = false
+}
+
+variable "provision_azure_resource" {
+  type = bool
+  default = true
+}

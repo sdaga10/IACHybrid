@@ -17,3 +17,8 @@ variable "resource_group_name" {
   type = string
   description = "The resource group name for the resources"
 }
+
+variable "provision_azure_resource" {
+  type = bool
+  default = true
+}

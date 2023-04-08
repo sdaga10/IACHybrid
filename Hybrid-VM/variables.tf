@@ -12,7 +12,7 @@ variable "azure_subscription_id" {
   type = string
   default = "****"
 }
-
+/*
 variable "azure_client_id" {
   type = string
   default = "****"
@@ -27,7 +27,7 @@ variable "azure_tenant_id" {
   type = string
   default = "****"
 }
-
+*/
 variable "aws_region" {
   type = string
 }
@@ -58,5 +58,14 @@ variable "azure_vm_type" {
   default = "Standard_DS1_v2"
 }
 
+variable "provision_aws_resource" {
+  type = bool
+  default = false
+}
+
+variable "provision_azure_resource" {
+  type = bool
+  default = true
+}
 
 

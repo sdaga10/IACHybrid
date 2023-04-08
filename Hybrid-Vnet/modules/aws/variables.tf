@@ -12,3 +12,8 @@ variable "az" {
   type = string
   description = "The availability zone for the subnet"
 }
+
+variable "provision_aws_resource" {
+  type = bool
+  default = false
+}
