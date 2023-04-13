@@ -54,3 +54,13 @@ variable "location" {
   type    = string
   default = "northcentralus"
 }
+
+variable "provision_aws_resource" {
+  type = bool
+  default = "false"
+}
+
+variable "provision_azure_resource" {
+  type = bool
+  default = "true"
+}
