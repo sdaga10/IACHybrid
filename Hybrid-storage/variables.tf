@@ -8,18 +8,6 @@ variable "aws_secret_key" {
   type = string
   default = "****"
 }
-*/
-
-variable "aws_access_key" {
-  type = string
-  default = "AKIAX6R6O2DQZUIQ4OZL"
-}
-variable "aws_secret_key" {
-  type = string
-  default = "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"
-}
-
-
 
 
 variable "azure_subscription_id" {
